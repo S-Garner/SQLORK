@@ -327,26 +327,26 @@ $$ LANGUAGE plpgsql;
 INSERT INTO Room (description, north, south, east, west)
 VALUES (
     'You awaken on a damp cobblestone floor. You appear to be in some sort of cell; The room is dark and windowless. A slight draft blows from the east, where you see an unlocked, the doorway leading to a dimly lit hallway. You here foot steps and a distant, low growl eminating from somewhere out of the cell. You are alone.',
-    NULL,  -- No room to the north
-    NULL,  -- No room to the south
-    2,  -- Room to the east
-    NULL   -- Room to the west
+    NULL,
+    NULL,
+    2,
+    NULL  
 );
 INSERT INTO Room (description, north, south, east, west)
 VALUES (
     'You stand in a dimly lit hall corridor. You see other cells around you, all locked. You hear the shuffle of feet from the darkness of the cages... You feel the burning glare of treacherous eyes glaring at you from the cold abyss of the dark cells... Luckily, they are closed and sealed, the danger of the unknown hindered for now. To the east you see a door leading to a room bathed in light. You are not alone.',
-    NULL,  -- No room to the north
-    NULL,  -- No room to the south
-    3,  -- Room to the east
-    1   -- Room to the west
+    NULL,
+    NULL,  
+    3,
+    1   
 );
 INSERT INTO Room (description, north, south, east, west)
 VALUES (
     'Your eyes adjust to the brightness of the well-lit room. You feel a brief relief from the suffocating darkness of the previous chambers, but this is fleeting. You stand in a circular room with a high ceiling. A golden antler chandelier hangs above, bathing the space in a warm, orange-golden glow. This appears to be the room where prisoners are processed before being placed in cells. A pile of treasure and gold—tokens confiscated from prisoners brought into this place—lies untouched. Whoever resides here seems to have no interest in the possessions of the captives. You notice a table in the center of the room, upon which rests a sword and a small, open book with a passage circled in ink. To the north is a wooden door, slightly ajar, leading only to darkness. To the east, a staircase descends into the shadows below. You are alone.',
-    NULL,  -- No room to the north
-    NULL,  -- No room to the south
-    4,  -- Room to the east
-    2   -- Room to the west
+    NULL,  
+    NULL,  
+    4, 
+    2  
 );
 INSERT INTO Item (name, description, room_id)
 VALUES (

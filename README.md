@@ -1,5 +1,7 @@
 # SQLORK
 
+## A Zork-like text based adventure game made entirely in SQL
+
 -- SQL to Create Tables --
 
 -- Create Room Table
